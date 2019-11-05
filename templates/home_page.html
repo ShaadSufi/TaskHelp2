@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+
+{% load static %}
+
+
+{% block base_head %}
+    <link rel="stylesheet" href="{% static 'css/main.css' %}">
+{% endblock %}
+{% block content %}
+ <h1>Hello, world!</h1>
+    <p>{{ intro }}</p>
+    <!--img src="{% static 'img/neutron_star.jpg' %}"-->
+    {% if request.user.is_autheticated %}
+    <div class="row">
+        <div class="col">
+            <h3>Premiumm</h3>
+            <p>{{ premium_content }}</p>
+        </div>
+    </div>
+    {% endif %}
+{% endblock %}
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  </head>
+  <body>
+
+
+  </body>
+</html>

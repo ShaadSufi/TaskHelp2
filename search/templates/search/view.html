@@ -1,0 +1,38 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+
+       <div class="row mb-3">
+       {% if request.GET.q %}
+           <div class="col-12 ">
+               <h3>Results for {{ request.GET.q }}</h3>
+           </div>
+       {% else %}
+           <div class="col-12 col-md-8 mx-auto py-5">
+                {%  include 'search/snippets/search-form.html' %}
+           </div>
+           <div class="col-12">
+            <hr>
+           </div>
+            <div class="col-12 ">
+               <h3>Featured </h3>
+           </div>
+       {% endif %}
+       </div>
+
+
+   <div class="row">
+    {% for obj in q %}
+        <div class="col">
+
+        {% include 'products/snippets/card.html' with instance=obj %}
+        {%  if forloop.counter|divisibleby:3 %}
+        </div></div><div class="row"><div class="col-12"><hr/></div>
+        {% else %}
+        </div>
+        {% endif %}
+    {% endfor %}
+
+   </div>
+{% endblock %}

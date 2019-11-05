@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+
+
+{% block content %}
+
+
+    <div class='row'>
+        <div class='col-12 col-md-6'>
+                <h1>{{ object.title }}</h1>
+                by <h4>{{userp}}</h4>
+                {{ object.timestamp|timesince }} ago
+                {{ object.description|linebreaks }}<br/>
+                <p> {% if object.likes.count == 0 %} 0 {% else %}{{ object.likes.count }}{% endif %}<a href="{{ object.get_like_url }}">&nbsp;&nbsp;&nbsp;Like</a></p>
+                {% if object.image %}
+                    <img src='{{ object.image.url }}' class='img-fluid' />
+
+                {% endif %}
+        </div>
+    <div clas="col-12 col-md-6">
+        {% include 'products/snippets/update-cart.html' with product=object cart=cart %}
+
+    </div>
+
+    {% if messages %}
+        <br/>
+        <br/>
+        <div class="col -sm-6 col -sm-offset-3" >
+        {% for message in messages %}
+            <p {% if message.tags %} class="alert alert-success" {% endif %}>{{ message }}</p>
+        {% endfor %}
+        </div>
+    {% endif %}
+
+
+{% endblock %}

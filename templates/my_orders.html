@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+
+
+
+{% block content%}
+    <h3>This is my orders page designed like yemeksepetis</h3>
+
+
+
+    <table class="table">
+  <thead class="thead-dark">
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Product</th>
+      <th scope="col">Status</th>
+\
+    </tr>
+  </thead>
+  <tbody>
+  {% for order in orders %}
+    <tr>
+      <th scope="row">{{ forloop.counter }}</th>
+        <td><a href ="#">{{ order.product }}</a></td>
+      <td>{{ order.status }}</td>
+    </tr>
+  {% endfor %}
+  </tbody>
+</table>
+{% endblock %}

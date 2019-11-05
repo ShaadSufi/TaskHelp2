@@ -1,0 +1,8 @@
+  {% include 'accounts/accountsbase.html'%}
+    <div class="container">
+        {% block accountscontent %}
+            {% for product in products %}
+                  {% include 'products/snippets/card.html' with instance=product %}
+            {% endfor %}
+        {% endblock %}
+    </div>

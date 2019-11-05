@@ -1,0 +1,14 @@
+  {% include 'userprofile/accountsbase.html'%}
+
+    <div class="container">
+        {% block profilecontent %}
+             {% for object in object_qs %}
+
+                  {% include 'products/snippets/card.html' with instance=object.product %}
+                 <div class="alert alert-info" role="alert">
+                    Status : {{ object.status }}
+                 </div>
+
+            {% endfor %}
+        {% endblock %}
+    </div>

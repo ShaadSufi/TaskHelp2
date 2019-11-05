@@ -1,0 +1,7 @@
+
+<form method="POST" action="{% url 'requests:home' %}" class="form">{% csrf_token %}
+    <input type="hidden" name="product" value="{{ user.id }}"/>
+
+            <button type="submit" class="btn btn-success ">Send Friend Request</button>
+
+</form>

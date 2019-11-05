@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1>Cart</h1>
+
+{% if cart.products.exists %}
+    {% for product in cart_obj %}
+
+        <h1>{{ product.title}}</h1>
+    {% endfor %}
+
+
+{% else %}
+    <p>Cart is empty</p>
+{% endif %}
+{% endblock %}

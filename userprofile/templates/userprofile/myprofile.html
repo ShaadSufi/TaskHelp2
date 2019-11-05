@@ -1,0 +1,10 @@
+  {% include 'userprofile/accountsbase.html'%}
+    <div class="container">
+        {% block profilecontent %}
+  <form enctype="multipart/form-data" method="POST" >{% csrf_token %}
+          {{ form }}<br/>
+
+        <button type="submit" class="btn btn-default" value="Create Task">Submit</button>
+    </form>
+        {% endblock %}
+    </div>

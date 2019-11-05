@@ -1,0 +1,66 @@
+{% url 'home' as home_url %}
+{% url 'about' as about_url %}
+{% url 'contact' as contact_url %}
+{% url 'my_orders' as orders_url %}
+{% url 'login' as login_url %}
+{% url 'logout' as logout_url %}
+{% url 'register' as register_url %}
+{% url 'cart:home' as cart_url %}
+{% url 'add_product' as add_product_url %}
+{% url 'userprofile:my_profile' as accounts_url %}
+{% url 'products:list' as products_url %}
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-3" >
+        <div class="container">
+            <span class="logo"><a class="navbar-brand" href="#">TaskHelp</a></span>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item {% if request.path == home_url %} active {% endif %}">
+            <a class="nav-link" href="{{home_url}}">Home <span class="sr-only">(current)</span></a>
+          </li>
+         <!--li class="nav-item {% if request.path == products_url %} active {% endif %}">
+            <a class="nav-link" href="{{products_url }}">Products</a>
+          </li-->
+
+           <li class="nav-item {% if request.path == contact_url %} active {% endif %}">
+            <a class="nav-link" href="{{contact_url}}">Contact</a>
+          </li>
+            <li class="nav-item {% if request.path == about_url %} active {% endif %}">
+            <a class="nav-link" href="{{about_url}}">About</a>
+          </li>
+
+
+            {% if request.user.is_authenticated %}
+            <li class="nav-item {% if request.path == orders_url %} active {% endif %}">
+            <a class="nav-link" href="{{orders_url}}">My Orders</a>
+          </li>
+          <li class="nav-item {% if request.path == add_product_url %} active {% endif %}">
+            <a class="nav-link" href="{{add_product_url}}">Add Task</a>
+          </li>
+          <li class="nav-item {% if request.path == accounts_url %} active {% endif %}">
+            <a class="nav-link" href="{{accounts_url}}">My Profile</a>
+          </li>
+            <li class="nav-item {% if request.path == logout_url %} active {% endif %}">
+            <a class="nav-link" href="{{logout_url}}">Logout</a>
+          </li>
+           {% else %}
+          <li class="nav-item {% if request.path == login_url %} active {% endif %}">
+            <a class="nav-link" href="{{login_url}}">Login</a>
+          </li>
+          <li class="nav-item {% if request.path == register_url %} active {% endif %}">
+            <a class="nav-link" href="{{register_url}}">Register</a>
+          </li>
+            {% endif %}
+
+        </ul>
+
+
+         {% include 'search/snippets/search-form.html' %}
+      </div>
+
+    </div>
+</nav>

@@ -1,0 +1,28 @@
+ {% include 'userprofile/accountsbase.html'%}
+    <div class="container">
+        {% block profilecontent %}
+            <table class="table">
+                  <thead class="thead-dark">
+                    <tr>
+                      <th scope="col">#</th>
+                      <th scope="col">Product</th>
+                      <th scope="col">Request Sender</th>
+                      <th scope="col"> From Date</th>
+                      <th scope="col"> Till Date</th>
+
+                    </tr>
+                  </thead>
+                  <tbody>
+                  {% for request in qs %}
+                    <tr>
+                      <th scope="row"> {{ forloop.counter }}</th>
+                      <td>{% include 'products/snippets/card.html' with instance=request.product %}</td>
+                      <td>{{ request.user }}</td>
+                      <td>{{ request.from_date }}</td>
+                      <td>{{ request.till_date }}</td>
+                    </tr>
+                    {% endfor %}
+                  </tbody>
+                </table>
+        {% endblock %}
+    </div>

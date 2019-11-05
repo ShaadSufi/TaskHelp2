@@ -1,0 +1,17 @@
+  {% include 'accounts/accountsbase.html'%}
+{% url 'accounts:sent' as sentrequests_url %}
+{% url 'accounts:recieved' as recievedrequests_url %}
+    <div class="container">
+        {% block accountscontent %}
+            	<div class="col-sm-9">
+            <ul class="nav ">
+
+                 <li class="nav-item {% if request.path == sentrequests_url %} active {% endif %}">
+                     <a class="nav-link" href="{{sentrequests_url}}">Sent Requests</a>
+                 </li>
+                  <li class="nav-item {% if request.path == recievedrequests_url %} active {% endif %}">
+                     <a class="nav-link" href="{{recievedrequests_url}}">Recieved Requests </a>
+                 </li>
+              </ul>
+        {% endblock %}
+    </div>

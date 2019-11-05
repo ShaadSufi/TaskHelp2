@@ -1,0 +1,1110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/ecommerce/views.py" description="def login_page(request):&#10;    login_form = LoginFor..." line="41" />
+    <bookmark url="file://$PROJECT_DIR$/products/models.py" description="def user(self):&#10;        return self.user" line="144" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="17c1ddc1-108b-40a8-aa1c-b1caf4344456" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="db" type="feb32156:DbDataSourceImpl" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="ecommerce" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ecommerce/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="629">
+              <caret line="43" column="46" selection-start-line="43" selection-start-column="46" selection-end-line="43" selection-end-column="46" />
+              <folding>
+                <element signature="e#0#36#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/requests/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="34" column="27" selection-start-line="34" selection-start-column="27" selection-end-line="34" selection-end-column="27" />
+              <folding>
+                <element signature="e#0#45#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/requests/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="850">
+              <caret line="55" selection-start-line="55" selection-end-line="55" />
+              <folding>
+                <element signature="e#0#27#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/my_orders.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="23" column="33" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/requests/forms.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="32" lean-forward="true" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+              <folding>
+                <element signature="e#0#24#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/products/forms.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="251">
+              <caret line="38" column="29" lean-forward="true" selection-start-line="38" selection-start-column="29" selection-end-line="38" selection-end-column="29" />
+              <folding>
+                <element signature="e#0#24#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/products/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="291">
+              <caret line="150" column="15" lean-forward="true" selection-start-line="150" selection-start-column="15" selection-end-line="150" selection-end-column="15" />
+              <folding>
+                <element signature="e#1#68#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/products/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="76" column="109" selection-start-line="76" selection-start-column="109" selection-end-line="76" selection-end-column="109" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>featured</find>
+      <find>User</find>
+      <find>managed</find>
+    </findStrings>
+    <dirStrings>
+      <dir>C:\Python\Python37-32\Scripts\ecommerce</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/TaskHelp" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/requests/templates/requests/home.html" />
+        <option value="$PROJECT_DIR$/pcopy/apps.py" />
+        <option value="$PROJECT_DIR$/pcopy/models.py" />
+        <option value="$PROJECT_DIR$/pcopy/admin.py" />
+        <option value="$PROJECT_DIR$/accounts/models.py" />
+        <option value="$PROJECT_DIR$/accounts/admin.py" />
+        <option value="$PROJECT_DIR$/accounts/forms.py" />
+        <option value="$PROJECT_DIR$/carts/admin.py" />
+        <option value="$PROJECT_DIR$/userprofile/admin.py" />
+        <option value="$PROJECT_DIR$/accounts/views.py" />
+        <option value="$PROJECT_DIR$/accounts/urls.py" />
+        <option value="$PROJECT_DIR$/ecommerce/settings.py" />
+        <option value="$PROJECT_DIR$/userprofile/templates/userprofile/recievedrequests.html" />
+        <option value="$PROJECT_DIR$/userprofile/templates/userprofile/sentrequests.html" />
+        <option value="$PROJECT_DIR$/userprofile/templates/userprofile/favorites.html" />
+        <option value="$PROJECT_DIR$/requests/forms.py" />
+        <option value="$PROJECT_DIR$/ecommerce/utils.py" />
+        <option value="$PROJECT_DIR$/templates/base.html" />
+        <option value="$PROJECT_DIR$/products/templates/products/list.html" />
+        <option value="$PROJECT_DIR$/products/templates/products/test.html" />
+        <option value="$PROJECT_DIR$/products/templates/products/snippets/card.html" />
+        <option value="$PROJECT_DIR$/userprofile/templates/userprofile/product_requests.html" />
+        <option value="$PROJECT_DIR$/products/urls.py" />
+        <option value="$PROJECT_DIR$/userprofile/templates/userprofile/friend-request.html" />
+        <option value="$PROJECT_DIR$/products/templates/products/detail.html" />
+        <option value="$PROJECT_DIR$/requests/admin.py" />
+        <option value="$PROJECT_DIR$/requests/urls.py" />
+        <option value="$PROJECT_DIR$/requests/views.py" />
+        <option value="$PROJECT_DIR$/userprofile/templates/userprofile/my_products.html" />
+        <option value="$PROJECT_DIR$/products/templates/products/snippets/profile_card.html" />
+        <option value="$PROJECT_DIR$/products/templates/products/snippets/update-cart.html" />
+        <option value="$PROJECT_DIR$/products/templates/products/snippets/friend_request_card.html" />
+        <option value="$PROJECT_DIR$/userprofile/templates/userprofile/my_friends.html" />
+        <option value="$PROJECT_DIR$/userprofile/templates/userprofile/my_friend_requests.html" />
+        <option value="$PROJECT_DIR$/products/templates/products/add_product.html" />
+        <option value="$PROJECT_DIR$/requests/models.py" />
+        <option value="$PROJECT_DIR$/userprofile/templates/userprofile/snippets/friend_request_card.html" />
+        <option value="$PROJECT_DIR$/userprofile/urls.py" />
+        <option value="$PROJECT_DIR$/userprofile/templates/userprofile/profile.html" />
+        <option value="$PROJECT_DIR$/userprofile/forms.py" />
+        <option value="$PROJECT_DIR$/userprofile/templates/userprofile/myprofile.html" />
+        <option value="$PROJECT_DIR$/userprofile/templates/userprofile/accountsbase.html" />
+        <option value="$PROJECT_DIR$/userprofile/models.py" />
+        <option value="$PROJECT_DIR$/userprofile/views.py" />
+        <option value="$PROJECT_DIR$/ecommerce/urls.py" />
+        <option value="$PROJECT_DIR$/templates/base/navbar.html" />
+        <option value="$PROJECT_DIR$/ecommerce/views.py" />
+        <option value="$PROJECT_DIR$/templates/my_orders.html" />
+        <option value="$PROJECT_DIR$/products/forms.py" />
+        <option value="$PROJECT_DIR$/products/views.py" />
+        <option value="$PROJECT_DIR$/products/models.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="950" />
+    <option name="width" value="980" />
+    <option name="height" value="1040" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="ecommerce - Copy - Copy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ecommerce - Copy - Copy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ecommerce - Copy - Copy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ecommerce - Copy - Copy" type="462c0819:PsiDirectoryNode" />
+              <item name="products" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ecommerce - Copy - Copy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ecommerce - Copy - Copy" type="462c0819:PsiDirectoryNode" />
+              <item name="TaskHelp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ecommerce - Copy - Copy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ecommerce - Copy - Copy" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ecommerce - Copy - Copy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ecommerce - Copy - Copy" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/userprofile" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="sql.rename.search.for.storage.occurrences" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Python\Python37-32\Scripts\ecommerce\carts\templates\carts" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Python\Python37-32\Scripts\ecommerce - Copy - Copy\userprofile" />
+      <recent name="C:\Python\Python37-32\Scripts\ecommerce - Copy - Copy\userprofile\templates\userprofile\snippets" />
+      <recent name="C:\Python\Python37-32\Scripts\ecommerce - Copy - Copy\userprofile\templates\userprofile" />
+      <recent name="C:\Python\Python37-32\Scripts\ecommerce - Copy\userprofile\templates\userprofile" />
+      <recent name="C:\Python\Python37-32\Scripts\ecommerce - Copy\userprofile" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.views">
+    <configuration name="views" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ecommerce" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/requests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/requests/views.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ecommerce" type="Python.DjangoServer" factoryName="Django server">
+      <module name="ecommerce" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.views" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="17c1ddc1-108b-40a8-aa1c-b1caf4344456" name="Default Changelist" comment="" />
+      <created>1561931411445</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1561931411445</updated>
+      <workItem from="1561931428488" duration="636000" />
+      <workItem from="1561933623873" duration="1981000" />
+      <workItem from="1561935706753" duration="1649000" />
+      <workItem from="1561937519763" duration="1700000" />
+      <workItem from="1561947181825" duration="1369000" />
+      <workItem from="1562000393937" duration="496000" />
+      <workItem from="1562071780072" duration="1945000" />
+      <workItem from="1562074161398" duration="1572000" />
+      <workItem from="1562076306935" duration="1572000" />
+      <workItem from="1562438806598" duration="1694000" />
+      <workItem from="1562441347378" duration="2052000" />
+      <workItem from="1562443832708" duration="1627000" />
+      <workItem from="1562445950492" duration="1789000" />
+      <workItem from="1562447762842" duration="1173000" />
+      <workItem from="1562456999612" duration="1967000" />
+      <workItem from="1562461274926" duration="2156000" />
+      <workItem from="1562531287363" duration="1786000" />
+      <workItem from="1562533115833" duration="1786000" />
+      <workItem from="1562534933701" duration="738000" />
+      <workItem from="1562537762571" duration="761000" />
+      <workItem from="1562540593845" duration="1792000" />
+      <workItem from="1562542409177" duration="1474000" />
+      <workItem from="1562549064328" duration="1970000" />
+      <workItem from="1562552636956" duration="693000" />
+      <workItem from="1562554469920" duration="1807000" />
+      <workItem from="1562556308286" duration="1807000" />
+      <workItem from="1562561572115" duration="1136000" />
+      <workItem from="1562598930621" duration="1489000" />
+      <workItem from="1562690721626" duration="675000" />
+      <workItem from="1562693516949" duration="1245000" />
+      <workItem from="1562695325196" duration="1786000" />
+      <workItem from="1562697476754" duration="483000" />
+      <workItem from="1562703788994" duration="1740000" />
+      <workItem from="1562705557526" duration="826000" />
+      <workItem from="1562707558478" duration="1492000" />
+      <workItem from="1562709467694" duration="599000" />
+      <workItem from="1562717383218" duration="1630000" />
+      <workItem from="1562848812065" duration="682000" />
+      <workItem from="1562851167957" duration="1789000" />
+      <workItem from="1562853126294" duration="1790000" />
+      <workItem from="1562854977573" duration="2022000" />
+      <workItem from="1562857064269" duration="1815000" />
+      <workItem from="1562859974591" duration="1814000" />
+      <workItem from="1562866675373" duration="1991000" />
+      <workItem from="1562873275953" duration="598000" />
+      <workItem from="1562875970847" duration="1613000" />
+      <workItem from="1562877947387" duration="1792000" />
+      <workItem from="1562879761549" duration="1464000" />
+      <workItem from="1562974180180" duration="1761000" />
+      <workItem from="1562975990887" duration="1788000" />
+      <workItem from="1562977819987" duration="1832000" />
+      <workItem from="1563018613242" duration="1770000" />
+      <workItem from="1563020404478" duration="1537000" />
+      <workItem from="1563022218076" duration="1147000" />
+      <workItem from="1563025292460" duration="1581000" />
+      <workItem from="1563198395541" duration="1788000" />
+      <workItem from="1563200716418" duration="1888000" />
+      <workItem from="1563354843811" duration="1119000" />
+      <workItem from="1563456572113" duration="1814000" />
+      <workItem from="1563458521022" duration="1788000" />
+      <workItem from="1563460356275" duration="1796000" />
+      <workItem from="1563462173087" duration="768000" />
+      <workItem from="1563477207155" duration="2025000" />
+      <workItem from="1563483112048" duration="2157000" />
+      <workItem from="1563487116453" duration="1472000" />
+      <workItem from="1563494273288" duration="1935000" />
+      <workItem from="1563500469177" duration="1310000" />
+      <workItem from="1563626613075" duration="599000" />
+      <workItem from="1563631494944" duration="1817000" />
+      <workItem from="1563633360961" duration="1788000" />
+      <workItem from="1563635264179" duration="1782000" />
+      <workItem from="1563637072871" duration="1789000" />
+      <workItem from="1563638884581" duration="1280000" />
+      <workItem from="1563660019355" duration="502000" />
+      <workItem from="1563710205583" duration="662000" />
+      <workItem from="1563713528545" duration="1067000" />
+      <workItem from="1563753408059" duration="3000" />
+      <workItem from="1563779076950" duration="20000" />
+      <workItem from="1563859398380" duration="265000" />
+      <workItem from="1564045472292" duration="595000" />
+      <workItem from="1564155227040" duration="602000" />
+      <workItem from="1564358424501" duration="1745000" />
+      <workItem from="1564360199912" duration="1857000" />
+      <workItem from="1564362726382" duration="1783000" />
+      <workItem from="1564364584157" duration="1560000" />
+      <workItem from="1564666309305" duration="1599000" />
+      <workItem from="1564668128038" duration="1471000" />
+      <workItem from="1564674515846" duration="1517000" />
+      <workItem from="1564676579295" duration="1630000" />
+      <workItem from="1566098295847" duration="49000" />
+      <workItem from="1566128639556" duration="776000" />
+      <workItem from="1566131151634" duration="1809000" />
+      <workItem from="1566132990685" duration="1791000" />
+      <workItem from="1566134804780" duration="1790000" />
+      <workItem from="1566136617024" duration="1793000" />
+      <workItem from="1566138503512" duration="1162000" />
+      <workItem from="1566140467190" duration="1785000" />
+      <workItem from="1566142542157" duration="1816000" />
+      <workItem from="1566166344126" duration="1792000" />
+      <workItem from="1566168156508" duration="1092000" />
+      <workItem from="1566169974149" duration="1861000" />
+      <workItem from="1566172944067" duration="1462000" />
+      <workItem from="1566179994479" duration="1792000" />
+      <workItem from="1566181867563" duration="1791000" />
+      <workItem from="1566184898395" duration="1825000" />
+      <workItem from="1566186752033" duration="1211000" />
+      <workItem from="1566579107686" duration="1739000" />
+      <workItem from="1566580883959" duration="583000" />
+      <workItem from="1566587162887" duration="896000" />
+      <workItem from="1566644445748" duration="276000" />
+      <workItem from="1566666814673" duration="1780000" />
+      <workItem from="1566668619958" duration="1795000" />
+      <workItem from="1566670440461" duration="1825000" />
+      <workItem from="1566672430962" duration="1789000" />
+      <workItem from="1566674243822" duration="1892000" />
+      <workItem from="1566676162883" duration="1825000" />
+      <workItem from="1566678015732" duration="739000" />
+      <workItem from="1566853563304" duration="1858000" />
+      <workItem from="1566855462054" duration="1787000" />
+      <workItem from="1566857274619" duration="1788000" />
+      <workItem from="1566859095308" duration="1106000" />
+      <workItem from="1566862479759" duration="1846000" />
+      <workItem from="1566864549274" duration="1687000" />
+      <workItem from="1566914246788" duration="1855000" />
+      <workItem from="1566916314857" duration="1469000" />
+      <workItem from="1566919801314" duration="828000" />
+      <workItem from="1566935480881" duration="709000" />
+      <workItem from="1567028143103" duration="911000" />
+      <workItem from="1567173936603" duration="1332000" />
+      <workItem from="1567178777872" duration="1820000" />
+      <workItem from="1567180642517" duration="925000" />
+      <workItem from="1567183273181" duration="1790000" />
+      <workItem from="1567185097053" duration="1792000" />
+      <workItem from="1567186952676" duration="2140000" />
+      <workItem from="1567202098953" duration="858000" />
+      <workItem from="1567250949632" duration="967000" />
+      <workItem from="1567259404868" duration="1789000" />
+      <workItem from="1567261243648" duration="950000" />
+      <workItem from="1567266373116" duration="2054000" />
+      <workItem from="1567269175310" duration="1792000" />
+      <workItem from="1567270990090" duration="1790000" />
+      <workItem from="1567272820570" duration="1789000" />
+      <workItem from="1567274635715" duration="877000" />
+      <workItem from="1567281722243" duration="804000" />
+      <workItem from="1567282553521" duration="264000" />
+      <workItem from="1567355463957" duration="1508000" />
+      <workItem from="1567366162732" duration="599000" />
+      <workItem from="1567368700885" duration="1671000" />
+      <workItem from="1567370550875" duration="1577000" />
+      <workItem from="1567374293442" duration="1787000" />
+      <workItem from="1567376104729" duration="1733000" />
+      <workItem from="1567421022963" duration="1983000" />
+      <workItem from="1567429025735" duration="1233000" />
+      <workItem from="1567431806384" duration="1896000" />
+      <workItem from="1567433795112" duration="737000" />
+      <workItem from="1567443564227" duration="637000" />
+      <workItem from="1567490221477" duration="979000" />
+      <workItem from="1567528201983" duration="625000" />
+      <workItem from="1567599627096" duration="1790000" />
+      <workItem from="1567601447256" duration="1522000" />
+      <workItem from="1567710293592" duration="1728000" />
+      <workItem from="1567712110673" duration="1790000" />
+      <workItem from="1567713978003" duration="704000" />
+      <workItem from="1568074793932" duration="2697000" />
+      <workItem from="1568191809955" duration="1798000" />
+      <workItem from="1568193850784" duration="1057000" />
+      <workItem from="1568195690228" duration="1801000" />
+      <workItem from="1568197521558" duration="1859000" />
+      <workItem from="1568199704259" duration="1547000" />
+      <workItem from="1568201524224" duration="1904000" />
+      <workItem from="1568203816385" duration="1592000" />
+      <workItem from="1568208546023" duration="1794000" />
+      <workItem from="1568210367258" duration="1816000" />
+      <workItem from="1568212313816" duration="1972000" />
+      <workItem from="1568219026765" duration="1560000" />
+      <workItem from="1568220720062" duration="1132000" />
+      <workItem from="1568382092386" duration="1229000" />
+      <workItem from="1568383862882" duration="1361000" />
+      <workItem from="1568389261245" duration="1199000" />
+      <workItem from="1568396000080" duration="1070000" />
+      <workItem from="1568406403251" duration="2171000" />
+      <workItem from="1568570374825" duration="1186000" />
+      <workItem from="1568583148771" duration="1827000" />
+      <workItem from="1568585111785" duration="598000" />
+      <workItem from="1568636420627" duration="1593000" />
+      <workItem from="1568638628297" duration="1781000" />
+      <workItem from="1568640437830" duration="1221000" />
+      <workItem from="1568652919321" duration="1794000" />
+      <workItem from="1568654740623" duration="1790000" />
+      <workItem from="1568656567830" duration="1795000" />
+      <workItem from="1568658483540" duration="519000" />
+      <workItem from="1568736558005" duration="819000" />
+      <workItem from="1568738462847" duration="1873000" />
+      <workItem from="1568740480632" duration="1358000" />
+      <workItem from="1568746239487" duration="910000" />
+      <workItem from="1568750283917" duration="107000" />
+      <workItem from="1568763850544" duration="1365000" />
+      <workItem from="1568765242228" duration="1790000" />
+      <workItem from="1568767091221" duration="1219000" />
+      <workItem from="1568768901596" duration="1791000" />
+      <workItem from="1568770819581" duration="1771000" />
+      <workItem from="1568772741882" duration="2077000" />
+      <workItem from="1568813147210" duration="1706000" />
+      <workItem from="1568814886139" duration="1787000" />
+      <workItem from="1568816728923" duration="652000" />
+      <workItem from="1568823452935" duration="705000" />
+      <workItem from="1568825270672" duration="1962000" />
+      <workItem from="1568829557410" duration="730000" />
+      <workItem from="1568840928554" duration="1460000" />
+      <workItem from="1568852821917" duration="1787000" />
+      <workItem from="1568854634277" duration="1790000" />
+      <workItem from="1568856534082" duration="1163000" />
+      <workItem from="1568874516701" duration="598000" />
+      <workItem from="1568982881006" duration="1737000" />
+      <workItem from="1568984644172" duration="1788000" />
+      <workItem from="1568986456503" duration="1494000" />
+      <workItem from="1568989784893" duration="1710000" />
+      <workItem from="1568991647513" duration="1740000" />
+      <workItem from="1568993541005" duration="598000" />
+      <workItem from="1568996113022" duration="49000" />
+      <workItem from="1568999299870" duration="1963000" />
+      <workItem from="1569001287181" duration="1830000" />
+      <workItem from="1569019769637" duration="1780000" />
+      <workItem from="1569021597680" duration="1788000" />
+      <workItem from="1569023450116" duration="1871000" />
+      <workItem from="1569025344348" duration="1792000" />
+      <workItem from="1569027217433" duration="1969000" />
+      <workItem from="1569029238935" duration="1790000" />
+      <workItem from="1569031053158" duration="1377000" />
+      <workItem from="1569066247373" duration="1790000" />
+      <workItem from="1569068060679" duration="1144000" />
+      <workItem from="1569092559036" duration="1972000" />
+      <workItem from="1569094800942" duration="1419000" />
+      <workItem from="1569170812235" duration="83000" />
+      <workItem from="1569171230890" duration="1229000" />
+      <workItem from="1569180337675" duration="82000" />
+      <workItem from="1569180552938" duration="2000" />
+      <workItem from="1569181054622" duration="1314000" />
+      <workItem from="1569185915939" duration="1788000" />
+      <workItem from="1569187785807" duration="1617000" />
+      <workItem from="1569189597540" duration="1012000" />
+      <workItem from="1569246775000" duration="1698000" />
+      <workItem from="1569248569542" duration="1788000" />
+      <workItem from="1569250510252" duration="1490000" />
+      <workItem from="1569253045807" duration="1929000" />
+      <workItem from="1569255035970" duration="1935000" />
+      <workItem from="1569257033967" duration="1811000" />
+      <workItem from="1569258993277" duration="1876000" />
+      <workItem from="1569261344998" duration="748000" />
+      <workItem from="1569266708338" duration="1595000" />
+      <workItem from="1569277235242" duration="1777000" />
+      <workItem from="1569279061024" duration="898000" />
+      <workItem from="1569280916753" duration="1655000" />
+      <workItem from="1569320822210" duration="1782000" />
+      <workItem from="1569322631357" duration="1550000" />
+      <workItem from="1569326884362" duration="336000" />
+      <workItem from="1569761703776" duration="1315000" />
+      <workItem from="1570881018722" duration="646000" />
+      <workItem from="1570928052720" duration="17000" />
+      <workItem from="1570983381484" duration="1961000" />
+      <workItem from="1571006467230" duration="603000" />
+      <workItem from="1571167336508" duration="1403000" />
+      <workItem from="1571247569478" duration="2119000" />
+      <workItem from="1571252231220" duration="1776000" />
+      <workItem from="1571254065067" duration="988000" />
+      <workItem from="1571326903521" duration="1737000" />
+      <workItem from="1571328679454" duration="1785000" />
+      <workItem from="1571330494636" duration="1839000" />
+      <workItem from="1571332559282" duration="638000" />
+      <workItem from="1571336522158" duration="658000" />
+      <workItem from="1571339325627" duration="1814000" />
+      <workItem from="1571341159507" duration="196000" />
+      <workItem from="1571413053020" duration="725000" />
+      <workItem from="1571414976858" duration="1786000" />
+      <workItem from="1571416790353" duration="1782000" />
+      <workItem from="1571418630794" duration="1377000" />
+      <workItem from="1571420445008" duration="288000" />
+      <workItem from="1571477618709" duration="867000" />
+      <workItem from="1571487573300" duration="1658000" />
+      <workItem from="1571489476331" duration="437000" />
+      <workItem from="1571586986194" duration="1488000" />
+      <workItem from="1571595765769" duration="1779000" />
+      <workItem from="1571597590517" duration="1747000" />
+      <workItem from="1571599647266" duration="1801000" />
+      <workItem from="1571601764383" duration="709000" />
+      <workItem from="1571652523192" duration="509000" />
+      <workItem from="1572094518004" duration="419000" />
+      <workItem from="1572197043157" duration="379000" />
+      <workItem from="1572201336808" duration="334000" />
+      <workItem from="1572311102180" duration="1831000" />
+      <workItem from="1572312957903" duration="1790000" />
+      <workItem from="1572314771190" duration="1974000" />
+      <workItem from="1572376765965" duration="600000" />
+      <workItem from="1572480801858" duration="599000" />
+      <workItem from="1572631130209" duration="479000" />
+      <workItem from="1572692402501" duration="1787000" />
+      <workItem from="1572694276390" duration="1789000" />
+      <workItem from="1572696107215" duration="1839000" />
+      <workItem from="1572698083684" duration="1850000" />
+      <workItem from="1572699999775" duration="710000" />
+      <workItem from="1572823708287" duration="598000" />
+      <workItem from="1572867530002" duration="1685000" />
+      <workItem from="1572869390372" duration="1789000" />
+      <workItem from="1572871241171" duration="1512000" />
+      <workItem from="1572873768042" duration="1594000" />
+      <workItem from="1572875912641" duration="979000" />
+      <workItem from="1572901718783" duration="1268000" />
+      <workItem from="1572905074206" duration="1819000" />
+      <workItem from="1572906922329" duration="1242000" />
+      <workItem from="1572948208398" duration="955000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="433432000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Structure" order="0" sideWeight="0.5007072" side_tool="true" weight="0.14678285" />
+      <window_info id="Favorites" order="1" sideWeight="0.5007153" side_tool="true" weight="0.36378738" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" sideWeight="0.49928468" visible="true" weight="0.116621986" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32956153" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32857144" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.3281471" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.23069498" />
+      <window_info anchor="right" id="Database" order="4" weight="0.3297587" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Structure" order="0" sideWeight="0.5007072" side_tool="true" weight="0.14678285" />
+      <window_info id="Favorites" order="1" sideWeight="0.5007153" side_tool="true" weight="0.36378738" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" sideWeight="0.49928468" visible="true" weight="0.12734585" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32956153" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32857144" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.3281471" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.23069498" />
+      <window_info anchor="right" id="Database" order="4" weight="0.3297587" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/ecommerce/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="625">
+          <caret line="64" column="42" selection-start-line="64" selection-start-column="42" selection-end-line="64" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/products/templates/products/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/userprofile/templates/userprofile/product_requests.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/comments/apps.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/comments/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ecommerce/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/accounts/templates/accounts/register_page.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requests/templates/requests/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="13" lean-forward="true" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requests/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="5" column="35" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/products/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="18" column="24" lean-forward="true" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/userprofile/templates/userprofile/favorites.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="44" selection-start-column="44" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/userprofile/templates/userprofile/friend-request.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/products/templates/products/snippets/card.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="12" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requests/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/userprofile/apps.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/userprofile/tests.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/userprofile/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/userprofile/templates/userprofile/my_products.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="46" selection-start-column="46" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/products/templates/products/snippets/profile_card.html" />
+    <entry file="file://$PROJECT_DIR$/products/templates/products/snippets/friend_request_card.html" />
+    <entry file="file://$PROJECT_DIR$/userprofile/templates/userprofile/my_friend_requests.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="28" selection-start-column="28" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/userprofile/templates/userprofile/my_friends.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="17" selection-start-column="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/userprofile/templates/userprofile/snippets/profile_card.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="73" lean-forward="true" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/userprofile/templates/userprofile/snippets/friend_request_card.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="6" lean-forward="true" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/userprofile/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/products/templates/products/featured-detail.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/userprofile/templates/userprofile/profile.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/products/templates/products/detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/userprofile/templates/userprofile/recievedrequests.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="27" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/products/templates/products/snippets/update-cart.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/userprofile/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="6" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/products/templates/products/add_product.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="8" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/userprofile/templates/userprofile/myprofile.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="60" selection-start-line="3" selection-start-column="60" selection-end-line="3" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/userprofile/templates/userprofile/accountsbase.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="34" column="60" selection-start-line="34" selection-start-column="60" selection-end-line="34" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/userprofile/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#62#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/accounts/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="15" lean-forward="true" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/accounts/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="36" column="32" selection-start-line="36" selection-start-column="32" selection-end-line="36" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/userprofile/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="625">
+          <caret line="80" column="15" selection-start-line="80" selection-start-column="15" selection-end-line="80" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requests/tests.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/base/navbar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="36" lean-forward="true" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ecommerce/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="461">
+          <caret line="44" column="59" selection-start-line="44" selection-start-column="59" selection-end-line="44" selection-end-column="59" />
+          <folding>
+            <element signature="e#642#683#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/contact/view.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/home_page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="9" lean-forward="true" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ecommerce/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="43" column="46" selection-start-line="43" selection-start-column="46" selection-end-line="43" selection-end-column="46" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requests/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="34" column="27" selection-start-line="34" selection-start-column="27" selection-end-line="34" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requests/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="850">
+          <caret line="55" selection-start-line="55" selection-end-line="55" />
+          <folding>
+            <element signature="e#0#27#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/my_orders.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="33" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requests/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="32" lean-forward="true" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/products/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="38" column="29" lean-forward="true" selection-start-line="38" selection-start-column="29" selection-end-line="38" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/products/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="150" column="15" lean-forward="true" selection-start-line="150" selection-start-column="15" selection-end-line="150" selection-end-column="15" />
+          <folding>
+            <element signature="e#1#68#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/products/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="76" column="109" selection-start-line="76" selection-start-column="109" selection-end-line="76" selection-end-column="109" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

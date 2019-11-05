@@ -1,0 +1,8 @@
+{% include 'userprofile/accountsbase.html'%}
+    <div class="container">
+        {% block profilecontent %}
+            {% for object in object_qs %}
+                  {% include 'userprofile/snippets/profile_card.html' with instance=object %}
+            {% endfor %}
+        {% endblock %}
+    </div>
