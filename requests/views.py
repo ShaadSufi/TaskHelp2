@@ -2,6 +2,7 @@ from django.shortcuts import render, redirect
 from django.views.generic import TemplateView
 from django.http.request import HttpRequest
 from ecommerce.serializers.request_serializer import PastRequestSerializer
+from ecommerce.error_handler import ResponseNotFound, ResponseNotAuth
 from django.http.response import HttpResponse
 from products.models import Product
 from .models import Requests
@@ -10,17 +11,23 @@ from accounts.models import User
 from userprofile.models import Userprofile
 
 class PastRequests(TemplateView):
-    #/past_request?offset={int}&limit={int}
+    #requests/past_request?offset={int}&limit={int}
     def get(self, request: HttpRequest, *args, **kwargs):
-        params = {
-            'offset': int(request.GET.get('offset', 0)),
-            'limit': int(request.GET.get('limit', 10))
-        }
-        reqs = Requests.objects.get_past_requests(user=request.user, **params)
-        if reqs is not None:
-            reqs_json = PastRequestSerializer.obj_list_to_dict_list(reqs).to_json()
-            return HttpResponse(content=reqs_json, content_type='application/json', status=200)
-        return HttpResponse(status=400)
+        if request.user.is_authenticated():
+            params = {
+                'offset': int(request.GET.get('offset', 0)),
+                'limit': int(request.GET.get('limit', 10))
+            }
+            reqs = Requests.objects.get_past_requests(user=request.user, **params)
+            if reqs is not None and reqs:
+                reqs_json = PastRequestSerializer.obj_list_to_dict_list(reqs).to_json()
+                return HttpResponse(content=reqs_json, content_type='application/json', status=200)
+            return ResponseNotFound(content={
+                'errors': ['Empty query']
+            })
+        return ResponseNotAuth(content={
+                'errors': ['User is not authorized']
+            })
 
 
 def requests_home(request) :
