@@ -54,11 +54,15 @@ class RequestsManager(models.Manager):
     def create_friend_request(self, user,reciever):
         return friend_request.objects.create(user=user,reciever=reciever)
 
+    def get_past_requests(self, user: User, offset: int = 0, limit: int = 10):
+        requests = Requests.objects.filter(user=user).order_by('-product__timestamp')[offset:limit+offset]
+        return requests
+
 
 
 class Requests(models.Model):
-    user        = models.ForeignKey(User, null=True, blank=True)
-    product   = models.ForeignKey(Product,  null=True, blank=True)
+    user = models.ForeignKey(User, null=True, blank=True)
+    product = models.ForeignKey(Product,  null=True, blank=True)
     status = models.CharField(max_length=120, default='pending', choices=REQUESTS_STATUS_CHOICES)
     #product_owner = models.ForeignKey(User, null=True, blank=True , related_name='userp')
 
