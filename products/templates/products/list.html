@@ -15,3 +15,27 @@
 
    </div>
 {% endblock %}
+
+{% block seperate_js %}
+<script>
+     $(document).ready( function(){
+    $.ajax({
+        type:'GET',
+        url:'{% url "requests:past_requests" %}',
+        data:{
+            action: 'get',
+        },
+        success:function(json){
+            console.log('success');
+        },
+        error : function(xhr,errmsg,err) {
+            let errors = JSON.parse(xhr.responseText).errors;
+            console.log(errors);
+            console.log('failiure');
+
+    }
+    });
+    });
+
+</script>
+{% endblock %}
