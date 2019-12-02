@@ -47,6 +47,7 @@ urlpatterns = [
     url(r'^add_product/$', add_product, name = 'add_product'),
     url(r'^requests/', include("requests.urls", namespace='requests')),
     url(r'^profile/', include("userprofile.urls", namespace='userprofile')),
+    url(r'^friends/', include("friends.urls", namespace='friends')),
 
 ]
 

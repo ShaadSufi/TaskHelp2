@@ -52,6 +52,7 @@ INSTALLED_APPS = [
     'product_requests',
     'requests',
     'userprofile',
+    'friends',
 
 
 ]
