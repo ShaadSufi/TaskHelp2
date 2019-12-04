@@ -1,3 +1,9 @@
 body{
     color: #ccc;
 }
+
+.past-request-container{
+    max-width: 40%;
+    /*align-self: ;*/
+    font-size: 15px;
+}

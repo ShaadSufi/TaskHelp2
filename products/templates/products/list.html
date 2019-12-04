@@ -1,7 +1,10 @@
 {% extends 'base.html' %}
 
-{% block content %}
+{% block past-requests %}
+     <div class="past-request-container card text-white bg-secondary mb-3" id="past-requests"></div>
+{% endblock %}
 
+{% block content %}
        <div class="row">
     {% for obj in object_list %}
         <div class="col">
@@ -14,4 +17,38 @@
     {% endfor %}
 
    </div>
+{% endblock %}
+
+{% block seperate_js %}
+<script>
+     $(document).ready( function(){
+    $.ajax({
+        type:'GET',
+        url:'{% url "requests:past_requests" %}',
+        data:{
+            action: 'get',
+        },
+        success:function(json){
+            console.log('success');
+            console.log(json);
+
+            let past_req = "";
+            json.forEach(function (item) {
+                past_req += `<div class="past-request-item">
+                                <div class="past-request-item productproduct-name">${item.product_name}</div>
+                                <div class="past-request-item product-status">${item.status}</div>
+                            </div>`
+            });
+            $("#past-requests").html(past_req);
+        },
+        error : function(xhr,errmsg,err) {
+            let errors = JSON.parse(xhr.responseText).errors;
+            console.log(errors);
+            console.log('failiure');
+
+    }
+    });
+    });
+
+</script>
 {% endblock %}
