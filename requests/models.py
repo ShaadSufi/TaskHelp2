@@ -58,6 +58,10 @@ class RequestsManager(models.Manager):
         requests = Requests.objects.filter(user=user).order_by('-product__timestamp')[offset:limit+offset]
         return requests
 
+    def get_past_request_by_id(self, user: User, _id: int):
+        request = Requests.objects.filter(user=user, id=_id).first()
+        return request
+
 
 
 class Requests(models.Model):
