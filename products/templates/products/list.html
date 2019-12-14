@@ -21,11 +21,13 @@
 
 {% block seperate_js %}
 <script>
-function getPastRequests(){
-     $(document).ready( function(){
+function getPastRequests(limit, offset){
+    var url = '{% url "requests:past_requests" %}';
+    url += '?limit=' + limit + '&offset=' + offset;
+
     $.ajax({
         type:'GET',
-        url:'{% url "requests:past_requests" %}',
+        url: url,
         data:{
             action: 'get',
         },
@@ -49,12 +51,13 @@ function getPastRequests(){
             console.log('failiure');
             $("#past-requests").html("");
 
-    }
-    });
+        }
     });
 }
 
-getPastRequests();
+     $(document).ready( function(){
+        getPastRequests();
+    });
 
 
      $(document).on('click', '.past-request-btn', function(event){
