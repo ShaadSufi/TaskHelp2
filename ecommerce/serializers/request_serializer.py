@@ -8,7 +8,10 @@ class PastRequestSerializer(BaseSerializer):
 
     def to_dict(self) -> ExtDict:
         dic = ExtDict({
+                    'id': self.product_request.id,
                     'product_name': self.product_request.product.name,
                     'status': self.product_request.status
                     })
         return dic
+
+

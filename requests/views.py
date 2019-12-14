@@ -5,13 +5,14 @@ from ecommerce.serializers.request_serializer import PastRequestSerializer
 from ecommerce.error_handler import ResponseNotFound, ResponseNotAuth
 from django.http.response import HttpResponse
 from products.models import Product
-from .models import Requests
+from .models import Requests, REQUESTS_STATUS_CHOICES
 from django.contrib import messages
 from accounts.models import User
 from userprofile.models import Userprofile
 
+
 class PastRequests(TemplateView):
-    #requests/past_request?offset={int}&limit={int}
+    # GET requests/past_request?offset={int}&limit={int}/
     def get(self, request: HttpRequest, *args, **kwargs):
         if request.user.is_authenticated():
             params = {
@@ -28,6 +29,20 @@ class PastRequests(TemplateView):
         return ResponseNotAuth(content={
                 'errors': ['User is not authorized']
             })
+
+    # POST request/{id:int}/
+    # UPDATING POST TO CANCEL
+    def post(self, request: HttpRequest, id: str, *args, **kwargs):
+        id = int(id)
+        if request.user.is_authenticated():
+            reqs = Requests.objects.get_past_request_by_id(user=request.user, _id=id)
+            if reqs is not None and reqs:
+                reqs.delete()
+                reqs_json = PastRequestSerializer.from_db(reqs).to_dict().to_json()
+                return HttpResponse(content=reqs_json, content_type='application/json', status=200)
+        return ResponseNotAuth(content={
+            'errors': ['User is not authorized']
+        })
 
 
 def requests_home(request) :

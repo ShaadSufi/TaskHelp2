@@ -21,6 +21,7 @@
 
 {% block seperate_js %}
 <script>
+function getPastRequests(){
      $(document).ready( function(){
     $.ajax({
         type:'GET',
@@ -35,8 +36,9 @@
             let past_req = "";
             json.forEach(function (item) {
                 past_req += `<div class="past-request-item">
-                                <div class="past-request-item productproduct-name">${item.product_name}</div>
+                                <div class="past-request-item product product-name">${item.product_name}</div>
                                 <div class="past-request-item product-status">${item.status}</div>
+                                <button class="button past-request-btn" id="past-product-${item.id}">Cancel</div>{% csrf_token %}
                             </div>`
             });
             $("#past-requests").html(past_req);
@@ -45,9 +47,38 @@
             let errors = JSON.parse(xhr.responseText).errors;
             console.log(errors);
             console.log('failiure');
+            $("#past-requests").html("");
 
     }
     });
+    });
+}
+
+getPastRequests();
+
+
+     $(document).on('click', '.past-request-btn', function(event){
+        event.preventDefault();
+        var post_dom_id = (this.id).split('-');
+        var post_id = Number(post_dom_id[post_dom_id.length - 1]);
+        console.log(post_id);
+        var url = '{% url "requests:past_request_cancel" id=0 %}'.replace(0, post_id);
+        $.ajax({
+            type:'POST',
+            url:url,
+            data:{
+                csrfmiddlewaretoken:$('input[name=csrfmiddlewaretoken]').val(),
+                action: 'post'
+            },
+            success:function(json){
+                console.log(json);
+                console.log('success');
+                getPastRequests();
+            },
+            error : function(xhr,errmsg,err) {
+                 console.log('err');
+                 }
+        });
     });
 
 </script>

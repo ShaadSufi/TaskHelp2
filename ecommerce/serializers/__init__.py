@@ -22,6 +22,10 @@ class BaseSerializer(ABC):
         return json.dumps(obj)
 
     @classmethod
+    def from_db(cls, obj):
+        return cls(obj)
+
+    @classmethod
     def obj_list_to_dict_list(cls, obj_list: list) -> ExtList:
         dict_list = ExtList([cls(obj).to_dict() for obj in obj_list])
         return dict_list
