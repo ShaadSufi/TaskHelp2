@@ -76,7 +76,7 @@ function getPastRequests(limit, offset){
             success:function(json){
                 console.log(json);
                 console.log('success');
-                getPastRequests();
+                getPastRequests(5, 0);
             },
             error : function(xhr,errmsg,err) {
                  console.log('err');
