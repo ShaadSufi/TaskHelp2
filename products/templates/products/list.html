@@ -1,7 +1,10 @@
 {% extends 'base.html' %}
 
-{% block content %}
+{% block past-requests %}
+     <div class="past-request-container card text-white bg-secondary mb-3" id="past-requests"></div>
+{% endblock %}
 
+{% block content %}
        <div class="row">
     {% for obj in object_list %}
         <div class="col">
@@ -14,4 +17,72 @@
     {% endfor %}
 
    </div>
+{% endblock %}
+
+{% block seperate_js %}
+<script>
+function getPastRequests(limit, offset){
+    var url = '{% url "requests:past_requests" %}';
+    url += '?limit=' + limit + '&offset=' + offset;
+
+    $.ajax({
+        type:'GET',
+        url: url,
+        data:{
+            action: 'get',
+        },
+        success:function(json){
+            console.log('success');
+            console.log(json);
+
+            let past_req = "";
+            json.forEach(function (item) {
+                past_req += `<div class="past-request-item">
+                                <div class="past-request-item product product-name">${item.product_name}</div>
+                                <div class="past-request-item product-status">${item.status}</div>
+                                <button class="button past-request-btn" id="past-product-${item.id}">Cancel</div>{% csrf_token %}
+                            </div>`
+            });
+            $("#past-requests").html(past_req);
+        },
+        error : function(xhr,errmsg,err) {
+            let errors = JSON.parse(xhr.responseText).errors;
+            console.log(errors);
+            console.log('failiure');
+            $("#past-requests").html("");
+
+        }
+    });
+}
+
+     $(document).ready( function(){
+        getPastRequests(5, 0);
+    });
+
+
+     $(document).on('click', '.past-request-btn', function(event){
+        event.preventDefault();
+        var post_dom_id = (this.id).split('-');
+        var post_id = Number(post_dom_id[post_dom_id.length - 1]);
+        console.log(post_id);
+        var url = '{% url "requests:past_request_cancel" id=0 %}'.replace(0, post_id);
+        $.ajax({
+            type:'POST',
+            url:url,
+            data:{
+                csrfmiddlewaretoken:$('input[name=csrfmiddlewaretoken]').val(),
+                action: 'post'
+            },
+            success:function(json){
+                console.log(json);
+                console.log('success');
+                getPastRequests(5, 0);
+            },
+            error : function(xhr,errmsg,err) {
+                 console.log('err');
+                 }
+        });
+    });
+
+</script>
 {% endblock %}
