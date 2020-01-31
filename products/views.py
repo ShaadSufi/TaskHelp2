@@ -76,6 +76,7 @@ def product_list_view(request):
 
 class ProductDetailSlugView(DetailView):
 
+
     queryset = Product.objects.all()
     template_name = "products/detail.html"
 
@@ -97,7 +98,8 @@ class ProductDetailSlugView(DetailView):
 
     def get_object(self, *args, **kwargs):
         request = self.request
-        print(request)
+
+
         slug = self.kwargs.get('slug')
 
                 # instance = get_object_or_404(Product, slug=slug, active=True)
@@ -108,6 +110,9 @@ class ProductDetailSlugView(DetailView):
         except Product.MultipleObjectsReturned:
             qs = Product.objects.filter(slug=slug, active=True)
             instance = qs.first()
+            view_lst = []
+            view_lst.append(request.user)
+            instance.views = view_lst
         except:
             raise Http404("Uhhmmm ")
         return instance

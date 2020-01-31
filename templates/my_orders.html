@@ -1,5 +1,27 @@
 {% extends "base.html" %}
 
+{#{% block base_head%}#}
+{#    <script>#}
+{#        function deleteRow( rowNum){#}
+{#            $.ajax({#}
+{##}
+{#                'url' : 'http://voicebunny.comeze.com/index.php',#}
+{#                'type' : 'POST',#}
+{#                'data' : {#}
+{#                    'numberOfWords' : 10#}
+{#                },#}
+{#                'success' : function(rowNum) {#}
+{#                    $('#row-'+rowNum).remove();#}
+{#                },#}
+{#                'error' : function(request,error)#}
+{#                {#}
+{#                    alert("Request: "+JSON.stringify(request));#}
+{#                }#}
+{#            });#}
+{##}
+{#        }#}
+{#    </script>#}
+{#{% endblock %}#}
 
 
 {% block content%}
@@ -18,10 +40,26 @@
   </thead>
   <tbody>
   {% for order in orders %}
-    <tr>
+    <tr id="row-{{ forloop.counter }}">
       <th scope="row">{{ forloop.counter }}</th>
         <td><a href ="#">{{ order.product }}</a></td>
       <td>{{ order.status }}</td>
+        <td>
+         <button type="button"
+              class="btn btn-warning btn-sm js-update-book"
+{#              data-url="{% url 'book_update' book.id %}"#}
+     >
+        <span class="glyphicon glyphicon-pencil"></span> Edit
+      </button>
+            </td>
+        <td>
+         <button type="button"
+              class="btn btn-danger btn-sm js-delete-book"
+{#              data-url="{% url 'book_delete' book.id %}"#}
+         >
+        <span class="glyphicon glyphicon-trash"></span> Delete
+      </button>
+    </td>
     </tr>
   {% endfor %}
   </tbody>

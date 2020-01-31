@@ -125,6 +125,7 @@ class Product(models.Model):
     is_digital      = models.BooleanField(default=False) # User Library
     destination     = models.CharField(max_length=120, null=True, blank=True)
     tip             = models.DecimalField(default=0.00, max_digits=100, decimal_places=2)
+    views           = models.ManyToManyField(User, blank=True, related_name='product_viewers')
     objects = ProductManager()
 
     def get_absolute_url(self):

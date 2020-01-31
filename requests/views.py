@@ -32,14 +32,15 @@ class PastRequests(TemplateView):
 
 def requests_home(request) :
     user = request.user
+    print(user)
     product_id = request.POST.get('product')
     product = Product.objects.get(id=product_id)
     # if p2 is selected it will give error
     #p2 = Product.objects.get(id=product_id)
     #print(product)
     #print(p2)
-    user= Product.objects.get_userp_by_title(product.title)
-    owner = User.objects.get(id=user.id)
+    # user= Product.objects.get_userp_by_title(product.title)
+    #owner = User.objects.get(id=user.id)
     user = request.user
     #requests_form = RequestsForm(request.POST or None)
     context = {

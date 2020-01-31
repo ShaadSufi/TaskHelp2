@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import Userprofile
+from .models import Userprofile,Profile
 
 
 
@@ -7,3 +7,4 @@ from .models import Userprofile
 
 
 admin.site.register(Userprofile)
+admin.site.register(Profile)

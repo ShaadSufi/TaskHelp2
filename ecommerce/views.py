@@ -1,5 +1,5 @@
 from django.http import HttpResponse
-from django.shortcuts import render
+from django.shortcuts import render,get_object_or_404
 from django.shortcuts import redirect
 from django.contrib.auth import authenticate, get_user_model
 from django.contrib.auth import login
@@ -48,3 +48,12 @@ def my_orders(request):
     }
     #print(orders)
     return render(request,"my_orders.html", context)
+
+
+# def request_update(request):
+#     order = get_object_or_404(Requests, pk=pk)
+#     if request.method == 'POST':
+#         form = RequestForm(request.POST, instance=order)
+#     else:
+#         form = RequestForm(instance=order)
+#     return save_book_form(request, form, 'books/includes/partial_book_update.html')

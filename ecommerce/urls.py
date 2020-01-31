@@ -34,6 +34,7 @@ urlpatterns = [
     url(r'^about/$', about_page, name ='about'),
     url(r'^contact/$', contact_page, name ='contact'),
     url(r'^orders/$',my_orders, name ='my_orders'),
+    # url(r'^orders/(?P<pk>\d+)/update/$', request_update, name='book_update'),
     url(r'^login/$', login_page, name ='login'),
     url(r'^register/guest$', guest_register_view, name ='guest_register'),
     url(r'^logout/$',logout_view, name ='logout'),

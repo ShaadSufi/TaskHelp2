@@ -8,6 +8,7 @@ from django.conf import settings
 #User = settings.AUTH_USER_MODEL
 from ecommerce.utils import unique_slug_generator_for_user
 from django.db.models.signals import pre_save
+from django.core.urlresolvers import reverse
 
 
 
@@ -48,6 +49,9 @@ class Userprofile(models.Model):
     def __str__(self):
         return self.user.get_full_name()
 
+    def get_absolute_url(self):
+        return reverse('userprofile', kwargs={'slug': self.slug})
+
 def full_name_pre_save_reciever(sender, instance, *args, **kwargs):
     user= instance.user
     instance.full_name = user.full_name
@@ -64,6 +68,17 @@ def profile_pre_save_receiver(sender, instance, *args, **kwargs):
 pre_save.connect(full_name_pre_save_reciever, sender=Userprofile )
 pre_save.connect(profile_pre_save_receiver, sender=Userprofile)
 pre_save.connect(email_pre_save_reciever, sender=Userprofile )
+
+
+
+class Profile(models.Model):
+    user= models.OneToOneField(User, on_delete=models.CASCADE)
+    image = models.ImageField(default = 'default.jpg', upload_to='profile_pics')
+
+    def __str__(self):
+        return f'{self.user}Profile'
+
+
 
 
 

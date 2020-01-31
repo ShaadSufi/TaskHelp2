@@ -1,14 +1,11 @@
-
 {% extends 'base.html' %}
 
 {% block content %}
-{% url 'userprofile:my_profile' as profile_url %}
-{% url 'userprofile:my_tasks' as tasks_url %}
-{% url 'userprofile:task_requests' as task_requests %}
-{% url 'userprofile:sent' as sent_url %}
-{% url 'userprofile:recieved' as recieved_url %}
-{% url 'userprofile:friend_requests' as friend_request_url %}
-{% url 'userprofile:my_friends' as  my_friends_url %}
+{% url 'userprofile:friend_profile_about' as about_url %}
+{% url 'userprofile:friend_profile_task' as task_url %}
+{% url 'userprofile:friend_profile_task_history' as task_history_url %}
+{% url 'userprofile:friend_profile_friends' as friends_url %}
+
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
 
@@ -32,8 +29,8 @@
 <hr>
 <div class="container bootstrap snippet">
     <div class="row">
-  		<div class="col-sm-10"><h1>{{ request.user.full_name }}</h1></div>
-    	<div class="col-sm-2"><a href="{{ request.user.image.url }}" class="pull-right"><img title="profile image" class="img-circle img-responsive" src="http://www.gravatar.com/avatar/28fd20ccec6865e2d5f0e1f4446eb7bf?s=100"></a></div>
+  		<div class="col-sm-10"><h1>{{ userprofile.full_name }}</h1></div>
+    	<div class="col-sm-2"><a href="{{ userprofile.image}}" class="pull-right"></a></div>
     </div>
 {#    <div class="row">#}
 {#  		<div class="col-sm-3"><!--left col-->#}
@@ -70,22 +67,20 @@
     	<div class="col-sm-9">
             <ul class="nav ">
 
-                <li class="nav-item {% if request.path == profile_url %} active {% endif %}">
-                    <a class="nav-link" href="{{profile_url}}">Edit Profile</a>
+            <li class="nav-item">
+                <li class="nav-item" {% if request.path ==  about_url %} active {% endif %} >
+                    <a class="nav-link" href="about/">About</a>
                 </li>
                 <li class="nav-item">
-                   <li class="nav-item" {% if request.path ==  my_friends_url %} active {% endif %} >
-                    <a class="nav-link" href="{{  my_friends_url }}">My Friends</a>
+                   <li class="nav-item" {% if request.path == friends_url %} active {% endif %} >
+                    <a class="nav-link" href="friends/">Friends</a>
                 </li>
                 </li>
-                <li class="nav-item" {% if request.path == friend_request_url %} active {% endif %} >
-                    <a class="nav-link" href="{{ friend_request_url }}">Friend Requests</a>
+                <li class="nav-item {% if request.path == task_url %} active{% endif %}">
+                    <a class="nav-link" href="tasks/">Tasks</a>
                 </li>
-                <li class="nav-item {% if request.path == tasks_url %} active {% endif %}">
-                    <a class="nav-link" href="{{tasks_url}}">My Tasks</a>
-                </li>
-                <li class="nav-item {% if request.path == task_requests %} active {% endif %}">
-                    <a class="nav-link" href="{{task_requests}}">Task History</a>
+                <li class="nav-item {% if request.path == task_history_url %} active {% endif %}">
+                    <a class="nav-link" href="task_history/">Task History</a>
                 </li>
               </ul>
         <div class="tab-content">

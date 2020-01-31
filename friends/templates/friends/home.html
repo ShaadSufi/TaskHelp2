@@ -3,14 +3,14 @@
 
 {% block content %}
     <h3>My friends</h3>
-    {% for friend in friends_lst  %}
-        <b>{{ friend.email }}</b> <br/>
+    {% for friend in friends_dict  %}
+        <a href="/profile/aliugbilkentedutr"> <b>{{ friend }}</b></a> <br/>
     {% endfor %}
 
 
      <h3>My friend requests</h3>
-    {% for request in friend__request_lst %}
-        <b>{{ request.email }}</b> <br/>
+    {% for friend in friend_request_dict%}
+        <a href="/profile/#"> <b>{{ friend }}</b></a> <br/>
     {% endfor %}
 
 {% endblock %}

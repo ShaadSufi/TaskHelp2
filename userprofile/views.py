@@ -10,6 +10,7 @@ from .models import Userprofile
 from django.http import Http404, HttpResponse, HttpResponseRedirect
 from .forms import FriendRequestForm, EditProfileForm
 from accounts.models import User
+from django.core.urlresolvers import reverse
 
 
 
@@ -94,39 +95,81 @@ def my_friends(request):
 
 
 
+def profile_detail(request,slug):
+
+    userprofile = get_object_or_404(Userprofile, slug=slug)
+    context = {
+        'userprofile':userprofile,
+    }
+    return render(request,'userprofile/friends_profile.html', context)
+
+def friend_profile_about(request,slug):
+    userprofile = get_object_or_404(Userprofile, slug=slug)
+    print(request.path)
+    context= {
+        'userprofile': userprofile,
+    }
+    return render(request, 'userprofile/friends_profile.html', context)
+
+def friend_profile_friends(request,slug):
+    userprofile = get_object_or_404(Userprofile, slug=slug)
+    print(request.path)
+    context= {
+        'userprofile': userprofile,
+    }
+    return render(request, 'userprofile/friends_profile.html', context)
+
+def friend_profile_task_history(request,slug):
+    userprofile = get_object_or_404(Userprofile, slug=slug)
+    print(request.path)
+    context= {
+        'userprofile': userprofile,
+    }
+    return render(request, 'userprofile/friends_profile.html', context)
+
+
+def friend_profile_task(request,slug):
+    userprofile = get_object_or_404(Userprofile, slug=slug)
+    print(request.path)
+    context= {
+        'userprofile': userprofile,
+    }
+    return render(request, 'userprofile/friends_profile.html', context)
 
 
 
-class ProfileDetailSlugView(DetailView):
 
-    queryset = Userprofile.objects.all()
-    template_name = "userprofile/profile.html"
+# class ProfileDetailSlugView(DetailView):
+#
+#     queryset = Userprofile.objects.all()
+#     template_name = "userprofile/profile.html"
+#
+#
+#
+#
+#
+#     def get_context_data(self, *args, **kwargs):
+#
+#         context = super(ProfileDetailSlugView, self).get_context_data(*args, **kwargs)
+#         return context
+#
+#
+#
+#
+#     def get_object(self, *args, **kwargs):
+#         request = self.request
+#         print(request)
+#         slug = self.kwargs.get('slug')
+#
+#                 # instance = get_object_or_404(Product, slug=slug, active=True)
+#         try:
+#             instance = Userprofile.objects.get(slug=slug)
+#         except Userprofile.DoesNotExist:
+#             raise Http404("Not found..")
+#         except Userprofile.MultipleObjectsReturned:
+#             qs = Userprofile.objects.filter(slug=slug)
+#             instance = qs.first()
+#         except:
+#             raise Http404("Uhhmmm ")
+#         return instance
 
-
-
-
-
-    def get_context_data(self, *args, **kwargs):
-
-        context = super(ProfileDetailSlugView, self).get_context_data(*args, **kwargs)
-        return context
-
-
-
-
-    def get_object(self, *args, **kwargs):
-        request = self.request
-        print(request)
-        slug = self.kwargs.get('slug')
-
-                # instance = get_object_or_404(Product, slug=slug, active=True)
-        try:
-            instance = Userprofile.objects.get(slug=slug)
-        except Userprofile.DoesNotExist:
-            raise Http404("Not found..")
-        except Userprofile.MultipleObjectsReturned:
-            qs = Userprofile.objects.filter(slug=slug)
-            instance = qs.first()
-        except:
-            raise Http404("Uhhmmm ")
-        return instance

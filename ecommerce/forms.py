@@ -1,6 +1,6 @@
 from django import forms
 from django.contrib.auth import get_user_model
-
+# from requests.models import Requests
 
 User = get_user_model()
 
@@ -39,4 +39,11 @@ class ContactForm(forms.Form):
             raise forms.ValidationError("Email must be registered from Bilkent University")
         return email
 
+
+
+
+# class RequestsForm(forms.ModelForm):
+#     class Meta:
+#         model = Requests
+#         fields = ('title', 'publication_date', 'author', 'price', 'pages', 'book_type', )
 
