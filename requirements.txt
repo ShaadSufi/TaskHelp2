@@ -1,1 +1,57 @@
+> Home page
+. Like and comment functionality for each task
+also images added 
+. Keep the front end design simple, like the insta UI
+> Contact Page 
+. Front end design and functionality
+>About page 
+. Front end design
+> My friends
+. Display profiles of each friend added and links to respective profiles
+. Display links to friend requests
+. Also front end design of each user profile 
+. Front end design
+> My orders
+. Functionality to delete tasks
+. Functionality to edit tasks if the user owns the task
+. Front end design
+> Add task
+. Add image for task
+. Front end design 
+> My profile
+. Edit profile front end
+. My friends: Display my friends + front end
+. My tasks: Display tasks accepted + front end
+. Task history : Front end 
+> Login front end
+> Register Front end
+
+Base functionality:
+When user goes to specific task from home page, task details, likes and comments on task are shown, when user accepts the task,contact details of task provider is given and time limit is set, if task is reported to be complete in the time frame, it is added to the home page list again and user reliability rating is decreased. If task is completed , both user and task provider are given questionnare about satisfaction on their home pages 
+
+Taskhelp Site Architecture :
+Home	-> Task List(includes friends tasks section) -> Task details -> User details page
+	-> Past Orders
+	
+-> Login 
+->Register
+-> Add Task
+-> My Friends
+	->Friend Suggestions
+	->My Friends
+	->Friend Requests
+
+ 
+-> My Profile
+	->Edit Profile
+	-> My Tasks
+	-> Task Requests
+	->Friend Requests
+	->My Friends
+	
+
+
+
+
+
 
