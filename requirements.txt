@@ -41,7 +41,7 @@ dask==1.0.0
 datashape==0.5.4
 decorator==4.3.0
 defusedxml==0.5.0
-Django==1.9.4
+Django==2.2.24
 docutils==0.14
 entrypoints==0.2.3
 heapdict==1.0.0
